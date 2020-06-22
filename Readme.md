@@ -26,4 +26,4 @@ For now, you can copy and paste the code.
 I have tested and can confirm it is working on Apache, Nginx, and Tomcat servers. 
 This will work with a Node server as well but that seems kinda pointless because React-Router does this for you. 
 
-Browser support- IE, Chrome, Edge, and Firefox. I havent tried on opera but who is using opera anyway ¯\_(ツ)_/¯ 
+Browser support- IE, Chrome, Edge, and Firefox. I haven't tried on opera but who is using opera anyway ¯¯|_(ツ)_/¯¯ 
