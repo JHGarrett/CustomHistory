@@ -20,18 +20,17 @@ class Main extends Component {
     }
 
 
-    // Get data for all tabs when component mounts
     componentDidMount() {
 
         history.listen((location, action) => {
             if (action === 'PUSH' || 'POP' && location.pathname === "/page1") {
-                this.setState({selectedTab: "page1"})
+                this.setState({currentPathname: "page1"})
             }
             if (action === 'PUSH' || 'POP' && location.pathname === "/page2") {
-                this.setState({selectedTab: "page2"})
+                this.setState({currentPathname: "page2"})
             }
             if (action === 'PUSH' || 'POP' && location.pathname === "/page3") {
-                this.setState({selectedTab: "page3"})
+                this.setState({currentPathname: "page3"})
             }
             if (action === 'POP' && location.pathname === "/") {
                 history.go(0)
